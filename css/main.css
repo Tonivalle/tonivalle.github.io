@@ -17,7 +17,6 @@
 body{
   background:
   linear-gradient(
-    /* rgba(29, 94, 44, 0.5), */
     rgba(48, 68, 53, 0.7),
     rgba(48, 68, 53, 0.7)
     ),
@@ -31,10 +30,7 @@ body{
 .text{
   font-family: 'Raleway', sans-serif;
 }
-i{
-  text-align: center;
 
-}
 .nav-tabs-navigation{
   width: 185px;
   border: 2px solid #fff;
@@ -42,28 +38,59 @@ i{
   margin-top: 40px;
 }
 
-/* .card-body{
-  border: 2px solid #fff;
-  background: #333;
-  /* transition: border 3s ease-out; */
-    /* flex-grow: 1 !important ;
-    flex-shrink: 1;
-    flex-basis: auto; */
-/* } */ 
+
 .tab-pane{
-  border: 1px solid;
+  border: 2px solid;
   background-color: #333;
   color: white;
 }
 
-.tab-pane.active {
-    animation: all 2s ease-out;
+.btn{
+  /* color: #fff !important;
+  background-color: #333 !important;
+  border : 2px solid white !important;
+  border-radius: 6px !important; */
 }
-
-/* html {
-  overflow-y: scroll;
-} */
 
 #PDF{
   font-family: 'Raleway', sans-serif;
+}
+.title{
+  margin-top: 20vh;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: #eee;
+  /* text-shadow: 4px 0 0 #222, -4px 0 0 #222, 0 4px 0 #222, 0 -4px 0 #222, 2px 2px #222, -2px -2px 0 #222, 2px -2px 0 #222, -2px 2px 0 #222; */
+  text-shadow: 4px 0 0 #222, -4px 0 0 #222, 0 4px 0 #222, 0 -4px 0 #222, 4px 4px #222, -4px -4px 0 #222, 4px -4px 0 #222, -4px 4px 0 #222;
+}
+.subtitle{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: #eee;
+}
+#abbutton{
+  background-color: rgba(3, 3, 3, 0.5);
+  border: 2px solid #fff;
+  /* float:left; */
+  /* margin-left: 25vw; */
+  /* margin-right: 25vw; */
+  text-transform: uppercase;
+}
+#abbutton:hover{
+  background-color: white;
+  color: black;
+}
+.botones{
+  text-align: center;
+}
+#resbutton{
+  background-color: rgba(3, 3, 3, 0.5);
+  border: 2px solid #fff;
+  /* float: right; */
+  /* margin-right: 25vw; */
+  text-transform: uppercase;
+}
+#resbutton:hover{
+  background-color: white;
+  color: black;
 }
