@@ -23,7 +23,7 @@
 <!-- <body class="burger-menu menu-on-left"> para ver como va en moviles-->
 
 <body>
-  <!-- color on scroll son los pixeles en los que cambia de transparente al color -->
+  <a href="#"><img class="logo" src="./img/Logo.png" alt="Antonio Vallejo Fernández"></a>
   <nav class="navbar navbar-expand-lg navbar-transparent fixed-top" color-on-scroll='100'>
     <div class="container">
       <a class="navbar-brand" href="#"> <img src="./img/Logo.png" width="40" height="40" alt="Antonio Vallejo Fernández"></a>
@@ -65,15 +65,17 @@
 
           <div class="card card-nav-tabs card-plain">
             <div class="card-header card-header-danger">
-              <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
               <div class="nav-tabs-navigation">
                 <div class="nav-tabs-wrapper" id="barra">
                   <ul class="nav nav-tabs" data-tabs="tabs">
                     <li class="nav-item">
-                      <a class="nav-link" href="#experience" data-toggle="tab"><i class="fas fa-briefcase"><span class="text">&nbsp;Experience</span></i></a>
+                      <a class="nav-link active" href="#experience" data-toggle="tab"><i class="fas fa-briefcase"><span class="text">&nbsp;Experience</span></i></a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link " href="#education" data-toggle="tab"><i class="fas fa-graduation-cap"><span class="text">&nbsp;Education</span></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#certificates" data-toggle="tab"><i class="fas fa-check-circle"><span class="text">&nbsp;Certificates</span></i></a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#languages" data-toggle="tab"><i class="fas fa-comments"><span class="text">&nbsp;Languages</span></i></a>
@@ -83,9 +85,6 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#interskills" data-toggle="tab"><i class="fas fa-comments"><span class="text">&nbsp;Interpersonal Skills</span></i></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#techskills" data-toggle="tab"><i class="fas fa-check-circle"><span class="text">&nbsp;Certificates</span></i></a>
                     </li>
                   </ul>
                 </div>
@@ -99,52 +98,274 @@
 
           <div class="card-body movimiento">
             <div class="tab-content text-center">
-              <div class="tab-pane fade" id="experience">
-                <h4 class="resitem">INDRA</h4>
+              <div class="tab-pane fade active show" id="experience">
+                <div class="container">
+                  <div class="row job-title">
+                    <div class="col">
+                      <h4 class="resitem">Software Engineering Intern - Indra sistemas - Madrid</h4>
+                      <div class="duration">Feb. 2019 - Present</div>
+                      <p class="job-description">Development of an OCR application in a dedicated team. Both Front and Back-End development.
+                        Use of Cloud services to power the application.
+                      </p>
+
+                    </div>
+                  </div>
+
+                  <div class="row row-margin">
+                    <div class="col">
+                      OCR design and optimization.
+                    </div>
+                    <div class="col">
+                      Neural Network programming and training.
+                    </div>
+                  </div>
+
+                  <div class="row row-margin">
+                    <div class="col">
+                      Front-End development with <b>Angular</b> and <b>Apache Cordova</b>. Use of <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b>.
+                    </div>
+                    <div class="col">
+                      Use of Google App Engine to power the application.
+                    </div>
+                  </div>
+
+                  <div class="row row-margin">
+                    <div class="col">
+                      Back-End development.
+                    </div>
+                    <div class="col">
+                      Database programming with <b>PL/SQL</b>.
+                    </div>
+                  </div>
+
+                </div>
               </div>
               <div class="tab-pane fade" id="education">
-                <p>LASALLE</p>
+                <div class="container">
+                  <div class="row job-title">
+                    <div class="col">
+                      <h4 class="resitem">Bachelor's degree - Industrial Engineering - URJC - Madrid</h4>
+                      <div class="duration">2013 - Present</div>
+                      <p class="job-description">
+                        Bachelor of Science and Engineering in Industrial Engineering. Focus on programming, robotics and automation.
+                      </p>
+
+                    </div>
+                  </div>
+                  <div class="row job-title">
+                    <div class="col">
+                      <h4 class="resitem">Japanese language - Madrid's Official Language School</h4>
+                      <div class="duration">2014-2017</div>
+                      <p class="job-description">
+                        3 years of learning Japanese with passing grades in all categories: listening, writing, grammar and oral communication.
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="tab-pane fade" id="certificates">
+                <div class="container">
+                  <div class="row job-title">
+                    <div class="col">
+                      <h4 class="resitem">Big Data analysis techniques - URJCx</h4>
+                      <div class="duration">2018</div>
+                      <p class="job-description">
+                        Online course about Big Data analysis. Univariate and multivariate analysis and visualization. Econometric models and prediction. Big Data technologies.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="row job-title">
+                    <div class="col">
+                      <h4 class="resitem">Introduction to Computer Science and Programming Using Python – MITx.</h4>
+                      <div class="duration">2018</div>
+                      <p class="job-description">
+                        Online course about the Python programming language. Testing and debugging. Introduction to algorithmic complexity. Data structures.
+                      </p>
+                      see certificate(abre la imagen/pdf del cert)
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="tab-pane fade" id="languages">
-                <p>MASTER</p>
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <h4 class=>Spanish</h4>
+                      <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="col align-self-end">
+                      Native speaker.
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col">
+                      <h4 class=>English</h4>
+                      <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="col align-self-end">
+                      Professional and everyday use. Certified FCE.
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col">
+                      <h4 class=>Japanese</h4>
+                      <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="col align-self-end">
+                      Conversation basics and everyday use. Certified Madrid's Official Language School 3 year course.
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col">
+                      <h4 class=>French</h4>
+                      <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="col align-self-end">
+                      Coursed for 6 years in high-school.
+                    </div>
+                  </div>
+
+                </div>
+                <br><br>
               </div>
+
               <div class="tab-pane fade" id="techskills">
-                <p>MEJORDETODOS</p>
-              </div>
-              <div class="tab-pane fade" id="interskills">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium recusandae ut saepe nesciunt at delectus sunt incidunt provident assumenda laboriosam doloremque itaque impedit quaerat nobis accusantium sit voluptas, autem
-                  architecto, nemo totam nam, cupiditate asperiores dolor quasi. Amet soluta id rerum ipsum et temporibus quasi a, optio aliquam aspernatur illo itaque harum aperiam nostrum dolorem saepe repudiandae beatae sunt nam, voluptatum
-                  dolorum corporis vero vitae esse? Dolores, reprehenderit! Iste, excepturi sapiente ducimus, fugit accusantium corporis, nostrum harum sunt error autem voluptatum nulla. Eveniet nostrum suscipit blanditiis reprehenderit fuga. Amet
-                  praesentium repudiandae iusto voluptatem eligendi asperiores veritatis eveniet, rem architecto incidunt? Possimus provident saepe modi ratione maiores nam doloribus, libero delectus neque expedita quis veniam sit facere quas culpa
-                  dolor adipisci cumque harum! Quaerat molestias repellendus voluptatem iusto quos alias sapiente itaque. Pariatur veritatis odit possimus sint ducimus quo amet, quia inventore assumenda provident excepturi in? Veniam, officia. Animi
-                  perferendis nostrum, temporibus a accusantium sed ea illo numquam, commodi minus quisquam assumenda. Cumque optio libero sequi, fugiat, cum reprehenderit asperiores porro eos architecto ad dolorem molestias unde ullam fugit
-                  pariatur maiores, omnis atque ducimus sit, voluptate ipsum aliquam nihil velit reiciendis. Alias ullam laudantium dolor facilis magnam natus numquam sint aperiam. Doloribus maxime et optio, magni sint odit est labore dolores quas,
-                  ad similique obcaecati. Facilis doloribus enim sequi nihil deserunt quam cumque sit velit, dolores quos itaque sint laudantium distinctio laborum dicta labore. Sit temporibus dignissimos repellendus, recusandae, aliquid modi sed
-                  similique vel hic quo commodi. Provident aperiam, voluptatem dolor earum error voluptate inventore nihil dolorum totam quis impedit officia quo, eum quae esse reiciendis in recusandae delectus reprehenderit obcaecati ad quos sequi
-                  modi facilis! Dolore eveniet voluptatibus laborum. Repellat exercitationem ducimus sit maiores aut fugiat eaque, magnam, quas a nihil sunt dignissimos. Soluta recusandae amet iure obcaecati inventore, libero reprehenderit, culpa
-                  repellendus rerum dicta quis. Harum assumenda repellendus, odio. Adipisci fuga libero aut quisquam tenetur dolorem delectus, fugiat ratione commodi, sit corporis doloremque a provident sunt quasi aperiam. Quo doloremque, a?
-                  Molestias minima rerum repellat alias incidunt. Similique, dolorum. Dolorem repellat sed obcaecati ipsa voluptates, facere et quis a assumenda ipsam magnam fuga. Amet dolorum, ipsam tempore eveniet voluptatibus architecto, aliquam
-                  dolores officiis! Commodi quae consequuntur rerum recusandae suscipit inventore quam molestiae! Natus numquam qui, dolorem quos fuga, laudantium voluptatibus unde omnis repudiandae officiis. Nobis reiciendis ipsa illum, amet quae
-                  eligendi omnis adipisci libero repellat recusandae beatae voluptatem officiis temporibus voluptatibus ducimus quo facere ex doloremque ipsum ipsam velit. Necessitatibus vero, ducimus temporibus consectetur! Tempora esse, deleniti
-                  aspernatur architecto error ex earum, quibusdam unde vitae a consequuntur labore cumque, beatae omnis. Optio quidem, sapiente quo aliquid deserunt, expedita commodi fugit quod, ducimus tempora nihil officia! Alias sapiente nostrum
-                  deserunt? Quae in quam tempora optio! Ipsam corporis qui perspiciatis minus a! Laborum assumenda commodi voluptate enim doloribus, facere qui temporibus unde iste! Dolorem fuga enim autem placeat ut nulla in vitae modi, repudiandae
-                  perspiciatis similique a aliquid error eius quia, veritatis, nihil sequi libero inventore. Inventore debitis possimus, ullam dicta?</p>
-              </div>
+                <div id="accordion" role="tablist" aria-multiselectable="true" class="card-collapse">
+                  <h4>EXPAND ALL <i class="fas fa-angle-down"></i></h4>
+                  <div class="card card-plain">
+                    <div class="card-header" role="tab" id="headingOne">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Python
 
+                        <i class="fas fa-angle-down"></i>
+                      </a>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                        tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                        lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card card-plain">
+                    <div class="card-header" role="tab" id="headingTwo">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ROS(Robot Operating System)
+
+                        <i class="fas fa-angle-down"></i>
+                      </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div class="card-body">
+                        Completed online courses concerning robot creation and manipulation with ROS. Courses completed: ROS basics, ROS Manipulation, TF ROS 101, ROS
+                        Industrial 101 y ROS Control 101. Degree Final Project consisting of 3D printing and assembling a robot and programming it with ROS and Python.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card card-plain">
+                    <div class="card-header" role="tab" id="headingThree">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Application development
+
+                        <i class="fas fa-angle-down"></i>
+                      </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                      <div class="card-body">
+                        Front-End and Back-End development. Use of HTML/CSS, JavaScript, jQuery, bootstrap, Angular and Apache Cordova.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card card-plain">
+                    <div class="card-header" role="tab" id="headingFour">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Linux and command line
+
+                        <i class="fas fa-angle-down"></i>
+                      </a>
+                    </div>
+                    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+                      <div class="card-body">
+                        <ul class="list-group">
+                          <li class="list-group-item list-group-item-secondary">Capable of using commonplace distributions such as Ubuntu, Debian or Mint. Command line knowledge. Server basics.</li>
+                        </ul>
+                        Capable of using commonplace distributions such as Ubuntu, Debian or Mint. Command line knowledge. Server basics.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card card-plain">
+                    <div class="card-header" role="tab" id="headingFive">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Other skills
+
+                        <i class="fas fa-angle-down"></i>
+                      </a>
+                    </div>
+                    <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+                      <div class="card-body">
+                        <ul class="list-group">
+                          <li class="list-group-item list-group-item-secondary">Familiar with C/C++, Matlab and R programming languages.</li>
+                          <li class="list-group-item list-group-item-secondary">FPGA programming using VHDL.</li>
+                          <li class="list-group-item list-group-item-secondary">IoT development with Arduino and Raspberry Pi.</li>
+                          <li class="list-group-item list-group-item-secondary">Version control with Git and GitHub.</li>
+                          <li class="list-group-item list-group-item-secondary">Driver's License.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            <div class="tab-pane fade" id="interskills">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium recusandae ut saepe nesciunt at delectus sunt incidunt provident assumenda laboriosam doloremque itaque impedit quaerat nobis accusantium sit voluptas, autem
+                architecto, nemo totam nam, cupiditate asperiores dolor quasi. Amet soluta id rerum ipsum et temporibus quasi a, optio aliquam aspernatur illo itaque harum aperiam nostrum dolorem saepe repudiandae beatae sunt nam, voluptatum
+                dolorum corporis vero vitae esse? Dolores, reprehenderit! Iste, excepturi sapiente ducimus, fugit accusantium corporis, nostrum harum sunt error autem voluptatum nulla. Eveniet nostrum suscipit blanditiis reprehenderit fuga. Amet
+                praesentium repudiandae iusto voluptatem eligendi asperiores veritatis eveniet, rem architecto incidunt? Possimus provident saepe modi ratione maiores nam doloribus, libero delectus neque expedita quis veniam sit facere quas culpa
+                dolor adipisci cumque harum! Quaerat molestias repellendus voluptatem iusto quos alias sapiente itaque. Pariatur veritatis odit possimus sint ducimus quo amet, quia inventore assumenda provident excepturi in? Veniam, officia. Animi
+                perferendis nostrum, temporibus a accusantium sed ea illo numquam, commodi minus quisquam assumenda. Cumque optio libero sequi, fugiat, cum reprehenderit asperiores porro eos architecto ad dolorem molestias unde ullam fugit
+                pariatur maiores, omnis atque ducimus sit, voluptate ipsum aliquam nihil velit reiciendis. Alias ullam laudantium dolor facilis magnam natus numquam sint aperiam. Doloribus maxime et optio, magni sint odit est labore dolores quas,
+                ad similique obcaecati. Facilis doloribus enim sequi nihil deserunt quam cumque sit velit, dolores quos itaque sint laudantium distinctio laborum dicta labore. Sit temporibus dignissimos repellendus, recusandae, aliquid modi sed
+                similique vel hic quo commodi. Provident aperiam, voluptatem dolor earum error voluptate inventore nihil dolorum totam quis impedit officia quo, eum quae esse reiciendis in recusandae delectus reprehenderit obcaecati ad quos sequi
+                modi facilis! Dolore eveniet voluptatibus laborum. Repellat exercitationem ducimus sit maiores aut fugiat eaque, magnam, quas a nihil sunt dignissimos. Soluta recusandae amet iure obcaecati inventore, libero reprehenderit, culpa
+                repellendus rerum dicta quis. Harum assumenda repellendus, odio. Adipisci fuga libero aut quisquam tenetur dolorem delectus, fugiat ratione commodi, sit corporis doloremque a provident sunt quasi aperiam. Quo doloremque, a?
+                Molestias minima rerum repellat alias incidunt. Similique, dolorum. Dolorem repellat sed obcaecati ipsa voluptates, facere et quis a assumenda ipsam magnam fuga. Amet dolorum, ipsam tempore eveniet voluptatibus architecto, aliquam
+                dolores officiis! Commodi quae consequuntur rerum recusandae suscipit inventore quam molestiae! Natus numquam qui, dolorem quos fuga, laudantium voluptatibus unde omnis repudiandae officiis. Nobis reiciendis ipsa illum, amet quae
+                eligendi omnis adipisci libero repellat recusandae beatae voluptatem officiis temporibus voluptatibus ducimus quo facere ex doloremque ipsum ipsam velit. Necessitatibus vero, ducimus temporibus consectetur! Tempora esse, deleniti
+                aspernatur architecto error ex earum, quibusdam unde vitae a consequuntur labore cumque, beatae omnis. Optio quidem, sapiente quo aliquid deserunt, expedita commodi fugit quod, ducimus tempora nihil officia! Alias sapiente nostrum
+                deserunt? Quae in quam tempora optio! Ipsam corporis qui perspiciatis minus a! Laborum assumenda commodi voluptate enim doloribus, facere qui temporibus unde iste! Dolorem fuga enim autem placeat ut nulla in vitae modi, repudiandae
+                perspiciatis similique a aliquid error eius quia, veritatis, nihil sequi libero inventore. Inventore debitis possimus, ullam dicta?</p>
+            </div>
+
           </div>
-
         </div>
-      </div>
 
+      </div>
     </div>
 
+  </div>
 
-    <script src="./js/core/jquery.min.js" type="text/javascript"></script>
-    <script src="./js/core/popper.min.js" type="text/javascript"></script>
-    <script src="./js/core/bootstrap.min.js" type="text/javascript"></script>
-    <script src="./js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
-    <script src="./js/main.js"></script>
+
+  <script src="./js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="./js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

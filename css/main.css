@@ -127,3 +127,56 @@ body
     color: black;
     background-color: white;
 }
+
+.logo{
+  width: 100px;
+  height: 100px;
+  z-index: 10000;
+  position: absolute;
+  margin-top: 2vh;
+  margin-left: 25vh;
+}
+
+.navbar-brand img{
+  display: none;
+}
+.resitem{
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+}
+
+#experience .container{
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.row-margin{
+  margin-top: 2vh;
+}
+.job-title{
+  border-bottom: 1px solid #fff;
+}
+
+.resitem{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+  color: #0078db;
+}
+
+.job-description{
+  margin-bottom: 1vh;
+}
+.duration{
+  text-align: center;
+  padding-right: 50vh;
+  color: #2677e2;
+}
+
+.card-header{
+  text-align: left;
+}
+/* Posibilidad de ponerle una caja a las actividades dentro de cada trabajo */
+/* .job-activities{
+  border: 1px solid #fff;
+} */
