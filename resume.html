@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link href="./css/bootstrap.min.css" rel="stylesheet" />
   <link href="./css/now-ui-kit.css?v=1.2.0" rel="stylesheet" />
+  <!-- <link href="./css/imagehover.min.css"rel="stylesheet"> -->
   <style media="screen">
     body{
       overflow-y: scroll;
@@ -173,6 +174,16 @@
                       <p class="job-description">
                         Online course about Big Data analysis. Univariate and multivariate analysis and visualization. Econometric models and prediction. Big Data technologies.
                       </p>
+                      <p>
+                        <button class="btn btn-info btn-sm" type="button" data-toggle="collapse" data-target="#collapseBigData" aria-expanded="false" aria-controls="collapseBigData">
+                          See Certificate
+                        </button>
+                      </p>
+                      <div class="collapse" id="collapseBigData">
+                        <div class="card card-body">
+                          <img src="./img/BigData.png" alt="">
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -183,7 +194,16 @@
                       <p class="job-description">
                         Online course about the Python programming language. Testing and debugging. Introduction to algorithmic complexity. Data structures.
                       </p>
-                      see certificate(abre la imagen/pdf del cert)
+                      <p>
+                        <button class="btn btn-info btn-sm" type="button" data-toggle="collapse" data-target="#collapseMIT" aria-expanded="false" aria-controls="collapseMIT">
+                          See Certificate
+                        </button>
+                      </p>
+                      <div class="collapse" id="collapseMIT">
+                        <div class="card card-body">
+                          <img src="./img/MITxCertificate.png" alt="">
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -192,7 +212,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col">
-                      <h4 class=>Spanish</h4>
+                      <h4 class="language"><img class="flag"src="img/FlagSpain.png" alt=""> Spanish</h4>
                       <div class="progress">
                         <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
@@ -204,7 +224,7 @@
 
                   <div class="row">
                     <div class="col">
-                      <h4 class=>English</h4>
+                      <h4 class="language"><img class="flag"src="img/FlagUK.png" alt=""> English</h4>
                       <div class="progress">
                         <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
@@ -216,7 +236,7 @@
 
                   <div class="row">
                     <div class="col">
-                      <h4 class=>Japanese</h4>
+                      <h4 class="language"><img class="flag"src="img/FlagJapan.png" alt=""> Japanese</h4>
                       <div class="progress">
                         <div class="progress-bar bg-success" role="progressbar" style="width: 35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
@@ -228,7 +248,7 @@
 
                   <div class="row">
                     <div class="col">
-                      <h4 class=>French</h4>
+                      <h4 class="language"><img class="flag"src="img/FlagFrance.png" alt=""> French</h4>
                       <div class="progress">
                         <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
@@ -244,27 +264,29 @@
 
               <div class="tab-pane fade" id="techskills">
                 <div id="accordion" role="tablist" aria-multiselectable="true" class="card-collapse">
-                  <h4>EXPAND ALL <i class="fas fa-angle-down"></i></h4>
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne, #collapseTwo, #collapseThree, #collapseFour, #collapseFive" aria-expanded="true" aria-controls="collapseOne" class="expandall"><h4 class="expandall"><i class="fas fa-angle-down"></i> TOGGLE ALL <i class="fas fa-angle-down"></i></h4></a>
                   <div class="card card-plain">
                     <div class="card-header" role="tab" id="headingOne">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="fab fa-python icono-techskills"></i>
+                      <a class="skill"data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         Python
 
                         <i class="fas fa-angle-down"></i>
                       </a>
                     </div>
 
-                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
                       <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                        tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                        lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        <ul class="list-group">
+                          <li class="list-group-item list-group-item-secondary">Data analysis, optimization, Machine Learning and Deep Learning models. Artificial and Recursive Neural Networks. Web Scraping. UI development. Object-oriented programming.</li>
+                        </ul>
                       </div>
                     </div>
                   </div>
                   <div class="card card-plain">
                     <div class="card-header" role="tab" id="headingTwo">
-                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <i class="fas fa-robot icono-techskills"></i>
+                      <a class="collapsed skill" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         ROS(Robot Operating System)
 
                         <i class="fas fa-angle-down"></i>
@@ -272,14 +294,17 @@
                     </div>
                     <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
                       <div class="card-body">
-                        Completed online courses concerning robot creation and manipulation with ROS. Courses completed: ROS basics, ROS Manipulation, TF ROS 101, ROS
-                        Industrial 101 y ROS Control 101. Degree Final Project consisting of 3D printing and assembling a robot and programming it with ROS and Python.
+                        <ul class="list-group">
+                          <li class="list-group-item list-group-item-secondary">Completed online courses concerning robot creation and manipulation with ROS. Courses completed: ROS basics, ROS Manipulation, TF ROS 101, ROS
+                            Industrial 101 y ROS Control 101. Degree Final Project consisting of 3D printing and assembling a robot and programming it with ROS and Python.</li>
+                        </ul>
                       </div>
                     </div>
                   </div>
                   <div class="card card-plain">
                     <div class="card-header" role="tab" id="headingThree">
-                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <i class="fas fa-code icono-techskills"></i>
+                      <a class="collapsed skill" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Application development
 
                         <i class="fas fa-angle-down"></i>
@@ -287,13 +312,16 @@
                     </div>
                     <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
                       <div class="card-body">
-                        Front-End and Back-End development. Use of HTML/CSS, JavaScript, jQuery, bootstrap, Angular and Apache Cordova.
+                        <ul class="list-group">
+                          <li class="list-group-item list-group-item-secondary">Front-End and Back-End development. Use of HTML/CSS, JavaScript, jQuery, bootstrap, Angular and Apache Cordova.</li>
+                        </ul>
                       </div>
                     </div>
                   </div>
                   <div class="card card-plain">
                     <div class="card-header" role="tab" id="headingFour">
-                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      <i class="fab fa-linux icono-techskills"></i>
+                      <a class="collapsed skill" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         Linux and command line
 
                         <i class="fas fa-angle-down"></i>
@@ -304,13 +332,14 @@
                         <ul class="list-group">
                           <li class="list-group-item list-group-item-secondary">Capable of using commonplace distributions such as Ubuntu, Debian or Mint. Command line knowledge. Server basics.</li>
                         </ul>
-                        Capable of using commonplace distributions such as Ubuntu, Debian or Mint. Command line knowledge. Server basics.
                       </div>
                     </div>
                   </div>
                   <div class="card card-plain">
                     <div class="card-header" role="tab" id="headingFive">
-                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      <!-- <i class="fas fa-ellipsis-h icono-techskills"></i> -->
+                      <i class="fas fa-align-justify icono-techskills"></i>
+                      <a class="collapsed skill" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         Other skills
 
                         <i class="fas fa-angle-down"></i>
@@ -330,26 +359,22 @@
                   </div>
                 </div>
               </div>
-            </div>
 
             <div class="tab-pane fade" id="interskills">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium recusandae ut saepe nesciunt at delectus sunt incidunt provident assumenda laboriosam doloremque itaque impedit quaerat nobis accusantium sit voluptas, autem
-                architecto, nemo totam nam, cupiditate asperiores dolor quasi. Amet soluta id rerum ipsum et temporibus quasi a, optio aliquam aspernatur illo itaque harum aperiam nostrum dolorem saepe repudiandae beatae sunt nam, voluptatum
-                dolorum corporis vero vitae esse? Dolores, reprehenderit! Iste, excepturi sapiente ducimus, fugit accusantium corporis, nostrum harum sunt error autem voluptatum nulla. Eveniet nostrum suscipit blanditiis reprehenderit fuga. Amet
-                praesentium repudiandae iusto voluptatem eligendi asperiores veritatis eveniet, rem architecto incidunt? Possimus provident saepe modi ratione maiores nam doloribus, libero delectus neque expedita quis veniam sit facere quas culpa
-                dolor adipisci cumque harum! Quaerat molestias repellendus voluptatem iusto quos alias sapiente itaque. Pariatur veritatis odit possimus sint ducimus quo amet, quia inventore assumenda provident excepturi in? Veniam, officia. Animi
-                perferendis nostrum, temporibus a accusantium sed ea illo numquam, commodi minus quisquam assumenda. Cumque optio libero sequi, fugiat, cum reprehenderit asperiores porro eos architecto ad dolorem molestias unde ullam fugit
-                pariatur maiores, omnis atque ducimus sit, voluptate ipsum aliquam nihil velit reiciendis. Alias ullam laudantium dolor facilis magnam natus numquam sint aperiam. Doloribus maxime et optio, magni sint odit est labore dolores quas,
-                ad similique obcaecati. Facilis doloribus enim sequi nihil deserunt quam cumque sit velit, dolores quos itaque sint laudantium distinctio laborum dicta labore. Sit temporibus dignissimos repellendus, recusandae, aliquid modi sed
-                similique vel hic quo commodi. Provident aperiam, voluptatem dolor earum error voluptate inventore nihil dolorum totam quis impedit officia quo, eum quae esse reiciendis in recusandae delectus reprehenderit obcaecati ad quos sequi
-                modi facilis! Dolore eveniet voluptatibus laborum. Repellat exercitationem ducimus sit maiores aut fugiat eaque, magnam, quas a nihil sunt dignissimos. Soluta recusandae amet iure obcaecati inventore, libero reprehenderit, culpa
-                repellendus rerum dicta quis. Harum assumenda repellendus, odio. Adipisci fuga libero aut quisquam tenetur dolorem delectus, fugiat ratione commodi, sit corporis doloremque a provident sunt quasi aperiam. Quo doloremque, a?
-                Molestias minima rerum repellat alias incidunt. Similique, dolorum. Dolorem repellat sed obcaecati ipsa voluptates, facere et quis a assumenda ipsam magnam fuga. Amet dolorum, ipsam tempore eveniet voluptatibus architecto, aliquam
-                dolores officiis! Commodi quae consequuntur rerum recusandae suscipit inventore quam molestiae! Natus numquam qui, dolorem quos fuga, laudantium voluptatibus unde omnis repudiandae officiis. Nobis reiciendis ipsa illum, amet quae
-                eligendi omnis adipisci libero repellat recusandae beatae voluptatem officiis temporibus voluptatibus ducimus quo facere ex doloremque ipsum ipsam velit. Necessitatibus vero, ducimus temporibus consectetur! Tempora esse, deleniti
-                aspernatur architecto error ex earum, quibusdam unde vitae a consequuntur labore cumque, beatae omnis. Optio quidem, sapiente quo aliquid deserunt, expedita commodi fugit quod, ducimus tempora nihil officia! Alias sapiente nostrum
-                deserunt? Quae in quam tempora optio! Ipsam corporis qui perspiciatis minus a! Laborum assumenda commodi voluptate enim doloribus, facere qui temporibus unde iste! Dolorem fuga enim autem placeat ut nulla in vitae modi, repudiandae
-                perspiciatis similique a aliquid error eius quia, veritatis, nihil sequi libero inventore. Inventore debitis possimus, ullam dicta?</p>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+
+                  </div>
+                </div>
+
+              </div>
             </div>
 
           </div>

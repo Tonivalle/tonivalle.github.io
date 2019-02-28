@@ -176,6 +176,47 @@ body
 .card-header{
   text-align: left;
 }
+
+.expandall{
+  color: #f96332;
+  /* color: white; */
+  text-decoration: none;
+}
+.icono-techskills{
+  /* color: #f96332; */
+  color: white;
+  padding-left: 10vh;
+  font-size: 20px;
+}
+.skill, .skill:hover, .skill:focus{
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.language{
+  text-align: left;
+  font-size: 1.75em;
+  padding-left: 15vh;
+}
+.flag{
+  width: 10%;
+  height: 10%;
+}
+
+.skillimage{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.skillcontainer{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  background-color: #f00;
+}
+[class*=' imghvr-'] {
+  background-color: #fff !important;
+}
 /* Posibilidad de ponerle una caja a las actividades dentro de cada trabajo */
 /* .job-activities{
   border: 1px solid #fff;
