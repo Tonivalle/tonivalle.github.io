@@ -214,10 +214,64 @@ body
   height: 100%;
   background-color: #f00;
 }
-[class*=' imghvr-'] {
-  background-color: #fff !important;
+
+.teamwork{
+  background:
+  linear-gradient(
+  rgba(100, 100, 100, .85),
+  rgba(48, 48, 48, .85)
+  ),
+  url(../img/teamwork.jpeg);
+  background-repeat: repeat-x;
+  background-position: 50% 50%;
+  background-size: cover;
+
 }
-/* Posibilidad de ponerle una caja a las actividades dentro de cada trabajo */
-/* .job-activities{
-  border: 1px solid #fff;
-} */
+.communication{
+  background:
+  linear-gradient(
+    rgba(100, 100, 100, .85),
+    rgba(48, 48, 48, .85)
+    ),
+    url(../img/communication.jpg);
+    background-repeat: no-repeat;
+    background-position: 70% 70%;
+    background-size: cover;
+}
+
+.posattitude{
+  background:
+  linear-gradient(
+    rgba(48, 48, 48, .85),
+    rgba(100, 100, 100, .85)
+    ),
+    url(../img/clouds.jpg);
+    background-repeat: no-repeat;
+    background-position: 70% 70%;
+    background-size: cover;
+}
+
+.critthink{
+  background:
+  linear-gradient(
+    rgba(100, 100, 100, .85),
+    rgba(48, 48, 48, .85)
+    ),
+    url(../img/critical-thinking.jpg);
+    background-repeat: no-repeat;
+    background-position: 70% 70%;
+    background-size: cover;
+}
+
+.contact-details{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+
+  margin-top: 20vh;
+
+  text-align: center;
+
+  border: 2px solid white;
+  border-radius: 50px;
+  background: #333;
+}
