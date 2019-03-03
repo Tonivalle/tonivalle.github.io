@@ -13,7 +13,7 @@
 
 .navbar:not(.navbar-transparent)
 {
-    background-image: linear-gradient(to right, black , green);
+    background-image: linear-gradient(to bottom, black, grey);
 }
 
 body
@@ -123,6 +123,21 @@ body
     background-color: rgba(3, 3, 3, .5);
 }
 #resbutton:hover
+{
+    color: black;
+    background-color: white;
+}
+
+#contbutton
+{
+    /* float: right; */
+    /* margin-right: 25vw; */
+    text-transform: uppercase;
+
+    border: 2px solid #fff;
+    background-color: rgba(3, 3, 3, .5);
+}
+#contbutton:hover
 {
     color: black;
     background-color: white;
@@ -274,4 +289,100 @@ body
   border: 2px solid white;
   border-radius: 50px;
   background: #333;
+}
+.background-white{
+  background: white;
+}
+/* .container-about{
+  padding: 0px !important;
+  margin: 0px !important;
+} */
+.col-about{
+  padding: 0px !important;
+  text-align: center;
+}
+.header{
+  /* background-color: white; */
+  margin-top: 20vh;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-shadow: 2px 0 0 #222, -2px 0 0 #222, 0 2px 0 #222, 0 -2px 0 #222, 1px 1px #222, -1px -1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222;
+  height: 72vh;
+}
+
+
+#about1{
+  background-color: #edeeef;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  font-family: 'Raleway', sans-serif;
+  color: rgba(26,26,26,.9);
+  /* height: 60vh; */
+}
+.imp3D{
+  width: 100%;
+}
+#about2{
+  background-color: white;
+  padding-top: 10vh;
+  padding-bottom: 20vh;
+  font-family: 'Raleway', sans-serif;
+  color: rgba(26,26,26,.9);
+}
+
+#about2>.container>.row>h2{
+  text-align: center;
+}
+
+
+#carouselExampleIndicators{
+  height: 65%;
+  width: 65%;
+}
+.pics{
+text-shadow: 2px 0 0 #222, -2px 0 0 #222, 0 2px 0 #222, 0 -2px 0 #222, 1px 1px #222, -1px -1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222;
+}
+
+#about3{
+  background-color: #edeeef;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  font-family: 'Raleway', sans-serif;
+  color: rgba(26,26,26,.9);
+}
+#about4{
+  background-color: white;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  font-family: 'Raleway', sans-serif;
+  color: rgba(26,26,26,.9);
+}
+#about4 img{
+  box-shadow: 2px 2px 20px 4px;
+}
+
+.sixpicscont{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.sixpics{
+  width: 100%;
+}
+.sixpicscont .col{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+#about5{
+  /* background-color: white; */
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#about5 .col{
+  padding: 2vw;
 }

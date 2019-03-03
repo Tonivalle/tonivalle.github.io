@@ -6,6 +6,9 @@ $ (document).ready(function(){
   $('#resbutton').on('click', function(){
     window.location="./resume.html";
   });
+  $('#contbutton').on('click', function(){
+    window.location="./contact.html";
+  });
 
   $(window).scroll(function() {
     var x = $(window).scrollTop();
