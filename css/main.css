@@ -176,7 +176,8 @@ body
   margin-top: 20px;
   margin-bottom: 0px;
   text-decoration: underline;
-  color: #0078db;
+  color: #7eb9d6;
+  /* font-weight: bold; */
 }
 
 .job-description{
@@ -185,14 +186,14 @@ body
 .duration{
   text-align: center;
   padding-right: 50vh;
-  color: #2677e2;
+  color: #7eb9d6;
 }
 
 .card-header{
   text-align: left;
 }
 
-.expandall{
+.expandall{#97a7b4
   color: #f96332;
   /* color: white; */
   text-decoration: none;
